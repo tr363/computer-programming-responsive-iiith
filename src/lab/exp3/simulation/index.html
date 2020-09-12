@@ -23,14 +23,14 @@
                 <option value="do-while" id = 'optionDoWhile'>do-while</option>
             </select>
         	<div class = 'instructionText' >Enter number for calculating P!</div>
-			<input  class = 'inputField marginBottom' type = 'text'   id = "simpleLoopInput">
+			<input  class = 'inputField marginBottom' type = 'range' min='0' max='20' oninvalid="alert('INVALID INPUT') id = "simpleLoopInput">
 			<button class = 'button startButton' id = "btnStart" >Start</button>
 			<button class = 'buttonDisable nextButton' id = "btnNext" disabled>Next</button>
 			<button class = 'button switchButton marginTop' id = "btnNestedLoop" >Switch to Nested Loop</button>
 		</div><!-- end of arraySizeInputBlock -->
 		<div class = 'nestedLoopBlock' id = "nested" style = "display: none">
 			<div class = 'instructionText' >Enter height of pyramid </div>
-			<input  class = 'inputField marginBottom' type = 'text'  id = "nestedLoopInput">
+			<input  class = 'inputField marginBottom' type = 'range' min='0' max='20' oninvalid="alert('INVALID INPUT') id = "nestedLoopInput">
 			<button class = 'button startButton' id = 'nestedStartBtn' >Start</button>
 			<button class = 'buttonDisable nextButton' id = 'nestedNextBtn' disabled>Next</button>
 			<button class = 'button switchButton marginTop' id = 'btnSimpleLoop' >Switch to Simple Loop</button>
