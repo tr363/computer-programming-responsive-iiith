@@ -31,8 +31,8 @@
 		<div class = 'inputDivisionTitle' ><div class = 'experimentPic' ></div><div class = 'experimentText' >Initialize</div></div>
 		<div class = 'inputDivisionBody' id = 'inputDivisionSimpleLoop' >
 			<div class = 'variableText' >Initialize variables</div>
-			<input  placeholder = 'Value of a' class = 'inputField' type = 'text'   id = 'valueA' size = '10' >
-			<input  placeholder = 'Value of b' class = 'inputField' type = 'text'   id = 'valueB' size = '10' >
+			<input  placeholder = 'Value of a' class = 'inputField' type="range" min="1" max="10"   id = 'valueA' size = '10' oninvalid="alert('INVALID INPUT');">
+			<input  placeholder = 'Value of b' class = 'inputField' type="range" min="1" max="10"   id = 'valueB' size = '10' oninvalid="alert('INVALID INPUT');">
 			<button  class = 'button startButton' id = 'okBtnId' >OK</button>
 			<button class = 'buttonDisable myStartButton' id = 'startBtnId' disabled>Start</button><button class = 'buttonDisable myStartButton hide' id = 'stopBtnId' disabled>Stop</button>
 			<button class = 'buttonDisable nextButton' id = 'nextBtnId' disabled>Next</button>
