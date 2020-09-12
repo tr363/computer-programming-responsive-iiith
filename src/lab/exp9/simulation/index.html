@@ -13,7 +13,7 @@
 			<div class = "inputDivisionTitle" ><div class="initializePic"></div><div class="initializeText">Initialize</div></div>
 			<div class="inputDivisionBody">
 				<div class="instructionText">Enter number of disks</div>
-				<input  class="textField" type="text"  id = 'input' placeholder = 'N'>
+				<input  class="textField" type="range" min="0" max="10" oninvalid="alert('INVALID INPUT')"  id = 'input' placeholder = 'N'>
 				<button class="button okButton" id = "btnOk" >Ok</button>	
 				<div class="buttonHolder"><button class="buttonDisable startButton" id = "btnStart" disabled>Start</button><button class="buttonDisable nextButton" id = "btnNext" disabled>Next</button></div>
 			</div><!-- end of inputDivisionBody -->
